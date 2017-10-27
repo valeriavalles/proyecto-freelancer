@@ -1,0 +1,86 @@
+/*setear*/
+body{
+    outline: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+/*encabezado*/
+#contenedor {
+    outline: 1px solid red;
+    height:80px ;
+    text-transform: uppercase;
+    font-family: 'Monsetrrat';
+    background-color: #212529;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+#contenedor .title {
+    outline: 1px solid blue;
+    display: inline-block;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    left: 100px;
+    top: 26px;
+}
+.title a {
+    text-decoration: none;
+    font-size:30px;
+    font-weight: 700;
+    color:#fff;
+   
+}
+/*menu de navegacion*/
+nav {
+    outline: 1px solid yellow;
+    float: right;
+    position: relative;
+    top: 30px;   
+}
+nav .menu {
+    outline: 1px solid green;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+nav .menu li {
+    outline: 1px solid black;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+nav .menu li a {
+    outline: 1px solid red;
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    margin-right: 20px;
+}
+/*segundo contenedor para un segundo encabezado para mi imagen 
+y mi titulo */
+.conteiner-uno {
+    background-color: yellow;
+    outline: green;
+    width: 100%;
+    height: 700px;
+    left: 0;
+    top: 0;
+}
+.cont-imagen {
+    padding-top: 80px;
+    position: relative;
+    top: 147px;
+    width: 100%;
+    text-align: center;
+}
+.conteiner-uno .cont-imgen texto span {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+
+}
